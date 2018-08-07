@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#main_cont {
+}
+
+.list-header {
+	padding: 50px 0;
+	margin-bottom: 25px;
+	text-align: center;
+	background-color: #000066;
+	color: #fff;
+}
+
+.list-header>h1 {
+	font-size: 64px;
+	font-family: Anton, monospace;
+}
+
+#chanel-list {
+	background-color: #ccccff;
+}
+
+.chanel {
+	padding: 10px;
+	width: 23%;
+	background-color: #fff;
+	margin: 15px 1%;
+}
+
+.chanel div.alert {
+	width: 100%;
+}
+
+.chanel-logo {
+	width: 100%;
+}
+
+.chanel .now {
+	font-size: 12px;
+}
+
+.btn-group .btn {
+	width: 100px;
+}
+
+.btn.active {
+	border-width: 5px;
+}
+
+@media (max-width: 1000px) {
+	.chanel {
+		width: 31.3333%;
+	}
+}
+
+@media (max-width: 768px) {
+	.chanel {
+		width: 48%;
+	}
+}
+
+@media (max-width: 480px) {
+	.chanel {
+		width: 98%;
+	}
+}
